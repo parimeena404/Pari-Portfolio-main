@@ -23,15 +23,7 @@ export default function Projects() {
       link: "https://antim-sewa-gamma.vercel.app/",
       category: "web",
     },
-    {
-      title: "Spark Ignited Website",
-      description:
-        "Official website for Team Spark Ignited at IET DAVV, showcasing team projects, events, and achievements.",
-      image: "/TSI_SS.png",
-      tags: ["Web Development", "Next.js", "UI/UX"],
-      link: "https://spark-eta-eight.vercel.app/",
-      category: "web",
-    },
+
     {
       title: "DUAA DAVV Website",
       description:
@@ -78,14 +70,7 @@ export default function Projects() {
       category: "app",
       github: "https://github.com/AnuragTiwari1508",
     },
-    {
-      title: "RSSI Signal Detection",
-      description:
-        "Research project using ESP32 for activity classification and localization through WiFi RSSI signal variations, with ML model for motion detection.",
-      image: "/RSSI.png",
-      tags: ["ESP32", "ML", "Arduino", "Python", "Signal Processing"],
-      category: "research",
-    },
+
     {
       title: "E-Clutch Project",
       description: "Innovative electronic clutch system for automobiles that won the Volvo Eicher Soil Symposium 2024.",
@@ -134,10 +119,9 @@ export default function Projects() {
         </motion.div>
 
         <Tabs defaultValue="all" className="mb-8" onValueChange={setActiveTab}>
-          <TabsList className="grid grid-cols-3 md:grid-cols-6 w-full max-w-2xl mx-auto">
+          <TabsList className="grid grid-cols-3 md:grid-cols-5 w-full max-w-2xl mx-auto">
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="hackathon">Hackathons</TabsTrigger>
-            <TabsTrigger value="research">Research</TabsTrigger>
             <TabsTrigger value="electronics">Electronics</TabsTrigger>
             <TabsTrigger value="web">Web</TabsTrigger>
             <TabsTrigger value="app">Apps</TabsTrigger>
