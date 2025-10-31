@@ -12,8 +12,8 @@ const fontSans = FontSans({
 })
 
 export const metadata: Metadata = {
-  title: "Anurag Tiwari | Portfolio",
-  description: "Electronics and Telecommunication Engineer, Web Developer, and Tech Enthusiast",
+  title: "Pari Meena | Portfolio",
+  description: "Computer Science Engineer, Web Developer, and Tech Enthusiast",
     generator: 'v0.dev'
 }
 

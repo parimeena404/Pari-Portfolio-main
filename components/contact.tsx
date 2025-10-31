@@ -77,14 +77,14 @@ export default function Contact() {
     {
       icon: <PhoneIcon className="h-5 w-5 text-purple-600" />,
       title: "Phone",
-      value: "+91-6261072872",
-      link: "tel:+916261072872",
+      value: "+91-9589191560",
+      link: "tel:+919589191560",
     },
     {
       icon: <MailIcon className="h-5 w-5 text-purple-600" />,
       title: "Email",
-      value: "tiwarianurag342409@gmail.com",
-      link: "mailto:tiwarianurag342409@gmail.com",
+      value: "parimeena404@gmail.com",
+      link: "mailto:parimeena404@gmail.com",
     },
     {
       icon: <MapPinIcon className="h-5 w-5 text-purple-600" />,
@@ -94,14 +94,14 @@ export default function Contact() {
     {
       icon: <GithubIcon className="h-5 w-5 text-purple-600" />,
       title: "GitHub",
-      value: "AnuragTiwari1508",
-      link: "https://github.com/AnuragTiwari1508",
+      value: "https://github.com/parimeena404",
+      link: "https://github.com/parimeena404",
     },
     {
       icon: <LinkedinIcon className="h-5 w-5 text-purple-600" />,
       title: "LinkedIn",
-      value: "Anurag Tiwari",
-      link: "https://www.linkedin.com/in/anurag-tiwari-4b664627b/",
+      value: "Pari Meena",
+      link: "https://www.linkedin.com/in/pari-meena-5b7814297",
     },
   ]
 

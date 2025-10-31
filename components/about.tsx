@@ -8,7 +8,7 @@ export default function About() {
   const education = [
     {
       institution: "Institute of Engineering & Technology (IET DAVV), Indore",
-      degree: "Bachelor's Degree – Electronics & Telecommunication Engineering",
+      degree: "Bachelor's Degree – Computer Science Engineering",
       period: "2023 – 2027",
     },
     {
@@ -59,19 +59,19 @@ export default function About() {
             </h3>
             <div className="space-y-4 text-gray-700 dark:text-gray-300">
               <p>
-                <strong className="text-gray-900 dark:text-white">Name:</strong> Anurag Tiwari
+                <strong className="text-gray-900 dark:text-white">Name:</strong> Pari Meena
               </p>
               <p>
                 <strong className="text-gray-900 dark:text-white">Location:</strong> Indore, India
               </p>
               <p>
-                <strong className="text-gray-900 dark:text-white">Email:</strong> tiwarianurag342409@gmail.com
+                <strong className="text-gray-900 dark:text-white">Email:</strong> parimeena404@gmail.com
               </p>
               <p>
-                <strong className="text-gray-900 dark:text-white">Phone:</strong> +91-6261072872
+                <strong className="text-gray-900 dark:text-white">Phone:</strong> +91-9589191560
               </p>
               <p>
-                <strong className="text-gray-900 dark:text-white">Field:</strong> Electronics and Telecommunication
+                <strong className="text-gray-900 dark:text-white">Field:</strong> Computer Science Engineering
               </p>
               <p className="mt-4">
                 I am a passionate tech enthusiast with a strong interest in web development, embedded systems, and

@@ -33,7 +33,7 @@ export default function Hero() {
             transition={{ duration: 0.8 }}
           >
             <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold text-gray-900 dark:text-white mb-6 leading-tight">
-              Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 animate-pulse">Anurag Tiwari</span>
+              Hi, I&apos;m <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 animate-pulse">Pari Meena</span>
             </h1>
             <h2 className="text-lg md:text-xl lg:text-2xl text-gray-600 dark:text-gray-300 mb-8 font-medium min-h-[2.5rem] flex items-center">
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-purple-600 font-semibold">
@@ -80,7 +80,7 @@ export default function Hero() {
                 </Link>
               </Button>
               <Button asChild variant="ghost" size="icon" className="hover:bg-purple-100 dark:hover:bg-purple-900 transform hover:scale-110 transition-all duration-300 rounded-full" aria-label="Email">
-                <Link href="mailto:tiwarianurag342409@gmail.com">
+                <Link href="mailto:parimeena404@gmail.com">
                   <MailIcon className="h-6 w-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400" />
                 </Link>
               </Button>

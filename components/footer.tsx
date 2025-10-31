@@ -10,14 +10,14 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="#home" className="text-xl font-bold">
-              Anurag<span className="text-purple-500">Tiwari</span>
+              Pari<span className="text-purple-500">Meena</span>
             </Link>
-            <p className="text-gray-400 mt-2">Electronics Engineer & Web Developer</p>
+            <p className="text-gray-400 mt-2">Computer Science Engineer & Web Developer</p>
           </div>
 
           <div className="flex space-x-4 mb-4 md:mb-0">
             <Link
-              href="https://github.com/AnuragTiwari1508"
+              href="https://github.com/parimeena404"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -25,7 +25,7 @@ export default function Footer() {
               <GithubIcon className="h-5 w-5" />
             </Link>
             <Link
-              href="https://www.linkedin.com/in/anurag-tiwari-4b664627b/"
+              href="https://www.linkedin.com/in/pari-meena-5b7814297"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-white transition-colors"
@@ -33,13 +33,13 @@ export default function Footer() {
               <LinkedinIcon className="h-5 w-5" />
             </Link>
             <Link
-              href="mailto:tiwarianurag342409@gmail.com"
+              href="mailto:parimeena404@gmail.com"
               className="text-gray-400 hover:text-white transition-colors"
             >
               <MailIcon className="h-5 w-5" />
             </Link>
             <Link
-              href="https://wa.me/916261072872"
+              href="https://wa.me/919589191560"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-400 hover:text-green-500 transition-colors"
@@ -48,7 +48,7 @@ export default function Footer() {
             </Link>
           </div>
 
-          <div className="text-gray-400 text-sm">&copy; {currentYear} Anurag Tiwari. All rights reserved.</div>
+          <div className="text-gray-400 text-sm">&copy; {currentYear} Pari Meena. All rights reserved.</div>
         </div>
 
         <div className="mt-6 pt-6 border-t border-gray-800 text-center text-gray-500 text-sm">

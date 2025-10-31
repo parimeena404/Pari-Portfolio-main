@@ -48,7 +48,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-4 flex items-center justify-between">
         <Link href="#home" className="text-xl font-bold text-gray-900 dark:text-white">
-          Anurag<span className="text-purple-600">Tiwari</span>
+          Pari<span className="text-purple-600">Meena</span>
         </Link>
 
         {/* Desktop Navigation */}
