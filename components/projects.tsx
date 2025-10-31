@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: "CalciSOS",
       description: "A discreet safety tool disguised as a calculator. Features hidden SOS trigger (911=) that sends location-based emergency alerts via email to preset contacts. Built with focus on user privacy and ease of access.",
-      image: "/calcisos.png",
+      image: "/calcisos.jpg",
       tags: ["HTML", "CSS", "JavaScript", "EmailJS", "Geolocation API", "LocalStorage"],
       github: "https://github.com/parimeena404/CalciSOS",
       category: "web",
