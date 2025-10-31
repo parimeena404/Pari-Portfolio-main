@@ -43,9 +43,22 @@ export default function Achievements() {
       icon: <UsersIcon className="h-10 w-10 text-yellow-500" />,
     },
     {
-      title: "SIEP eBike Competition Representative",
-      description: "Led electronics and wiring harness systems for Spark Ignited team",
-      icon: <ZapIcon className="h-10 w-10 text-yellow-500" />,
+      title: "McKinsey Forward Program",
+      description: "Completed professional development program focused on business and consulting skills",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "October 2025",
+    },
+    {
+      title: "HP Young Professional Program",
+      description: "Specialized training in technology and professional development",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "September 2025",
+    },
+    {
+      title: "Tata Consultancy Services Certification",
+      description: "Advanced professional certification in software development and IT practices",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "August 2025",
     },
   ]
 
@@ -97,6 +110,9 @@ export default function Achievements() {
                   <div className="mb-4">{achievement.icon}</div>
                   <h3 className="text-lg font-semibold text-gray-900 dark:text-white mb-2">{achievement.title}</h3>
                   <p className="text-gray-600 dark:text-gray-400 text-sm">{achievement.description}</p>
+                  {achievement.period && (
+                    <p className="text-purple-600 dark:text-purple-400 text-sm mt-1">{achievement.period}</p>
+                  )}
                   {achievement.link && (
                     <a
                       href={achievement.link}
