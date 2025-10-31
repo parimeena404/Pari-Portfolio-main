@@ -14,6 +14,14 @@ export default function Projects() {
   const projects = [
     // Projects with live demos first
     {
+      title: "CalciSOS",
+      description: "A discreet safety tool disguised as a calculator. Features hidden SOS trigger (911=) that sends location-based emergency alerts via email to preset contacts. Built with focus on user privacy and ease of access.",
+      image: "/calcisos.png",
+      tags: ["HTML", "CSS", "JavaScript", "EmailJS", "Geolocation API", "LocalStorage"],
+      github: "https://github.com/parimeena404/CalciSOS",
+      category: "web",
+    },
+    {
       title: "Antim Sewa - अंतिम सेवा",
       description:
         "A comprehensive funeral services website providing essential items and services for final rites. Features include user authentication, product catalog, shopping cart system, and bilingual support (Hindi/English).",
