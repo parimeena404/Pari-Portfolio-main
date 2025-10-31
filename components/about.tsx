@@ -12,14 +12,14 @@ export default function About() {
       period: "2023 – 2027",
     },
     {
-      institution: "Rankers International School, Indore",
-      degree: "Class XII (PCM) – 75.2%",
+      institution: "Kids Heaven Hr. Sec. School",
+      degree: "Class XII (PCM) – 80%",
       period: "2022 – 2023",
     },
     {
-      institution: "Kendriya Vidyalaya No. 1, Indore",
-      degree: "Class X – 89.2%",
-      period: "2013 – 2022",
+      institution: "Kids Heaven Hr. Sec. School",
+      degree: "Class X – 96%",
+      period: "2008 – 2021",
     },
   ]
 
@@ -41,7 +41,7 @@ export default function About() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-purple-600 to-pink-500 mx-auto mb-6"></div>
           <p className="text-slate-700 dark:text-gray-300 max-w-2xl mx-auto">
-            Electronics and Telecommunication Engineering student with a passion for web development, embedded systems,
+            Computer Science Engineering student with a passion for web development, data structures & algorithms,
             and leading technical teams.
           </p>
         </motion.div>

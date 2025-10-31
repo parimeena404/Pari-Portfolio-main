@@ -24,14 +24,14 @@ export default function Skills() {
       skills: ["Flutter", "Android Studio"],
     },
     {
-      title: "Electronics",
+      title: "Computer Science",
       icon: <ChipIcon className="h-6 w-6 text-purple-600 dark:text-purple-400" />,
-      skills: ["Embedded C", "PCB Designing", "Arduino", "ESP32", "SimulIDE"],
+      skills: ["Data Structures", "Algorithms", "Database Management", "System Design", "Git & GitHub"],
     },
     {
       title: "Programming & Web3",
       icon: <ServerIcon className="h-6 w-6 text-purple-600 dark:text-purple-400" />,
-      skills: ["Python", "C/C++", "Ethereum", "Polygon", "Smart Contracts", "VS Code", "Atmel Studio-7"],
+      skills: ["Python", "C/C++", "Ethereum", "Polygon", "Smart Contracts", "VS Code"],
     },
     {
       title: "AI & ML",
@@ -41,7 +41,7 @@ export default function Skills() {
     {
       title: "Soft Skills",
       icon: <UsersIcon className="h-6 w-6 text-purple-600 dark:text-purple-400" />,
-      skills: ["Leadership", "Team Management", "Communication", "Microsoft Suite", "Adaptability"],
+      skills: ["Excellent Communication", "Strong Leadership", "Problem Solving", "Creative Thinking", "High Adaptability", "Team Management"],
     },
   ]
 
