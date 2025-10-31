@@ -7,40 +7,52 @@ import { AwardIcon, TrophyIcon, CodeIcon, GraduationCapIcon, UsersIcon, ZapIcon 
 export default function Achievements() {
   const achievements = [
     {
-      title: "Winner, I Love Hackathon",
-      description: "Built a Web3-based stock advisory platform called Stock Saarthi",
-      icon: <TrophyIcon className="h-10 w-10 text-yellow-500" />,
-      link: "https://github.com/AnuragTiwari1508/Stock-Saarthi",
-    },
-    {
-      title: "Winner, Volvo Eicher Soil Symposium 2024",
-      description: "Developed E-Clutch project",
-      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
-    },
-    {
-      title: "2nd Prize, ETWDC 2025 (Special Category)",
-      description: "Ranked 7th overall in the competition",
-      icon: <TrophyIcon className="h-10 w-10 text-yellow-500" />,
-    },
-    {
-      title: "3rd Rank, Code Series (GDSC IET DAVV)",
-      description: "Demonstrated problem-solving skills in coding competition",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-    },
-    {
-      title: "Selected for Pariksha Pe Charcha 2020",
-      description: "Recognized for content writing skills on MyGov.in",
+      title: "McKinsey Forward Program",
+      description: "Completed professional development program focused on business and consulting skills",
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "October 2025",
     },
     {
-      title: "Finalist (Top 5) at IIT Chennai Hackathon",
-      description: "Reached the final round with innovative solution",
-      icon: <TrophyIcon className="h-10 w-10 text-yellow-500" />,
+      title: "HP Young Professional Program",
+      description: "Specialized training in technology and professional development",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "September 2025",
     },
     {
-      title: "Tech. Team Member, Phenma INTERNATIONAL CONFERENCE",
-      description: "This role boosted my technical and communication skills with global networking vibes",
-      icon: <UsersIcon className="h-10 w-10 text-yellow-500" />,
+      title: "Tata Consultancy Services Certification",
+      description: "Advanced professional certification in software development and IT practices",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "August 2025",
+    },
+    {
+      title: "Google Data Analytics Professional Certificate",
+      description: "Comprehensive certification in data analytics, including tools and methodologies",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "July 2025",
+    },
+    {
+      title: "Meta Front-End Developer Certificate",
+      description: "Advanced certification in modern front-end development technologies and frameworks",
+      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
+      period: "June 2025",
+    },
+    {
+      title: "AWS Cloud Practitioner",
+      description: "Fundamental understanding of AWS Cloud services and architecture",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "May 2025",
+    },
+    {
+      title: "Microsoft Azure Fundamentals",
+      description: "Certification in cloud concepts and Microsoft Azure services",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "April 2025",
+    },
+    {
+      title: "IBM Full Stack Software Developer",
+      description: "Comprehensive certification in full-stack development technologies",
+      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
+      period: "March 2025",
     },
     {
       title: "McKinsey Forward Program",
