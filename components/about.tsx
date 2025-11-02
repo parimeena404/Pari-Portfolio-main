@@ -12,12 +12,12 @@ export default function About() {
       period: "2023 – 2027",
     },
     {
-      institution: "Kids Heaven Hr. Sec. School",
+      institution: "Kids Heaven Hr. Sec. School, Indore",
       degree: "Class XII (PCM) – 80%",
       period: "2022 – 2023",
     },
     {
-      institution: "Kids Heaven Hr. Sec. School",
+      institution: "Kids Heaven Hr. Sec. School, Indore",
       degree: "Class X – 96%",
       period: "2008 – 2021",
     },

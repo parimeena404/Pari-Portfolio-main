@@ -17,7 +17,7 @@ export default function Experience() {
         "Represented Spark Ignited at SIEP eBike Competition, played a key role in electronics and wiring harness team, ensuring system efficiency and safety.",
       ],
       achievements: [
-        "Winner: Volvo Eicher Soil Symposium 2024 – E-Clutch project.",
+
         "2nd Prize: ETWDC 2025 (Special Category) – Ranked 7th overall.",
       ],
     },

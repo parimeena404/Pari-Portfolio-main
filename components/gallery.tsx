@@ -19,8 +19,7 @@ export default function Gallery() {
     },
     {
       src: "/Volvo-img.png",
-      alt: "E-Clutch Project",
-      caption: "Volvo Eicher Soil Symposium 2024 - E-Clutch project",
+
     },
     {
       src: "/bike-side.jpg",

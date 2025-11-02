@@ -79,14 +79,7 @@ export default function Projects() {
       github: "https://github.com/AnuragTiwari1508",
     },
 
-    {
-      title: "E-Clutch Project",
-      description: "Innovative electronic clutch system for automobiles that won the Volvo Eicher Soil Symposium 2024.",
-      image: "/placeholder.svg?height=200&width=400",
-      tags: ["Electronics", "Embedded Systems", "Automotive"],
-      category: "electronics",
-      achievement: "Winner, Volvo Eicher Soil Symposium 2024",
-    },
+
   ]
 
   const filteredProjects = activeTab === "all" ? projects : projects.filter((project) => project.category === activeTab)
