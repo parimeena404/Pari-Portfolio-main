@@ -114,16 +114,14 @@ export default function Projects() {
           </h2>
           <div className="w-20 h-1 bg-purple-600 mx-auto mb-6"></div>
           <p className="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
-            A collection of projects showcasing my skills in web development, mobile apps, blockchain, electronics, and
-            AI/ML.
+            A collection of projects showcasing my skills in web development, mobile apps, blockchain, and AI/ML.
           </p>
         </motion.div>
 
         <Tabs defaultValue="all" className="mb-8" onValueChange={setActiveTab}>
-          <TabsList className="grid grid-cols-3 md:grid-cols-5 w-full max-w-2xl mx-auto">
+          <TabsList className="grid grid-cols-2 md:grid-cols-4 w-full max-w-2xl mx-auto">
             <TabsTrigger value="all">All</TabsTrigger>
             <TabsTrigger value="hackathon">Hackathons</TabsTrigger>
-            <TabsTrigger value="electronics">Electronics</TabsTrigger>
             <TabsTrigger value="web">Web</TabsTrigger>
             <TabsTrigger value="app">Apps</TabsTrigger>
           </TabsList>

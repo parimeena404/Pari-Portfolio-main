@@ -38,19 +38,9 @@ export default function Gallery() {
       caption: "Receiving Best Student Award for Academic Excellence",
     },
     {
-      src: "/siep2.jpg",
-      alt: "SIEP eBike Competition",
-      caption: "SIEP - 2025 eBike Competition with Spark Ignited team",
-    },
-    {
       src: "/DUAA_PHOTO.jpg",
       alt: "DAVV Youth Fest",
       caption: "Organizing the DAVV State-Level Youth Fest",
-    },
-    {
-      src: "/TSI.jpg",
-      alt: "Team Spark Ignited",
-      caption: "Team Spark Ignited group photo - (2nd year Electronic and PR Team)",
     },
   ]
 
