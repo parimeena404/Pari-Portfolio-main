@@ -28,6 +28,16 @@ export default function Gallery() {
       caption: "Google Developer Group (GDG) Event Highlights",
     },
     {
+      src: "/AnnualDay.jpg",
+      alt: "Annual Day Celebration",
+      caption: "Annual Day Celebration at College",
+    },
+    {
+      src: "/BestStudentAward.jpg",
+      alt: "Best Student Award",
+      caption: "Receiving Best Student Award for Academic Excellence",
+    },
+    {
       src: "/siep2.jpg",
       alt: "SIEP eBike Competition",
       caption: "SIEP - 2025 eBike Competition with Spark Ignited team",
