@@ -18,13 +18,14 @@ export default function Gallery() {
       caption: "Winning the I Love Hackathon with Stock Saarthi project",
     },
     {
-      src: "/Volvo-img.png",
-
+      src: "/IIT-Indore-Hackathon.jpg",
+      alt: "IIT Indore Hackathon",
+      caption: "Participating in IIT Indore Hackathon 2025",
     },
     {
-      src: "/bike-side.jpg",
-      alt: "ETWDC Competition",
-      caption: "ETWDC 2025 Competition - 2nd Prize (Special Category)",
+      src: "/GDGmoments.jpg",
+      alt: "GDG Moments",
+      caption: "Google Developer Group (GDG) Event Highlights",
     },
     {
       src: "/siep2.jpg",
@@ -40,16 +41,6 @@ export default function Gallery() {
       src: "/TSI.jpg",
       alt: "Team Spark Ignited",
       caption: "Team Spark Ignited group photo - (2nd year Electronic and PR Team)",
-    },
-    {
-      src: "/ANURAG%20TIWARI.png",
-      alt: "GDSC Code Series",
-      caption: "GDSC IET DAVV Code Series competition",
-    },
-    {
-      src: "/Chennai%20photo.jpg",
-      alt: "IIT Chennai Hackathon",
-      caption: "Finalist at IIT Chennai Hackathon (APPIAN AI CHALLENGE)",
     },
   ]
 

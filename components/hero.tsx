@@ -72,7 +72,7 @@ export default function Hero() {
               </Button>
               <Button asChild variant="ghost" size="icon" className="hover:bg-purple-100 dark:hover:bg-purple-900 transform hover:scale-110 transition-all duration-300 rounded-full" aria-label="LinkedIn">
                 <Link
-                  href="https://www.linkedin.com/in/anurag-tiwari-4b664627b/"
+                  href="https://www.linkedin.com/in/pari-meena-5b7814297"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -95,7 +95,7 @@ export default function Hero() {
             <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-transparent bg-gradient-to-r from-purple-600 via-pink-500 to-blue-500 p-1 shadow-2xl hover:shadow-purple-500/25 transition-all duration-300 float-animation">
               <div className="w-full h-full rounded-full overflow-hidden bg-white dark:bg-gray-900">
                 <img
-                  src="/pari-main.jpg"
+                  src="/Pari.jpg"
                   alt="Pari Meena"
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                 />
