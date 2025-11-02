@@ -3,6 +3,7 @@
 import { useState } from "react"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
+import Image from "next/image"
 import { Dialog, DialogContent, DialogTrigger, DialogClose, DialogTitle } from "@/components/ui/dialog"
 import { VisuallyHidden } from "@/components/ui/visually-hidden"
 import { ChevronLeftIcon, ChevronRightIcon, XIcon } from "lucide-react"
@@ -28,7 +29,7 @@ export default function Gallery() {
       caption: "Google Developer Group (GDG) Event Highlights",
     },
     {
-      src: "/AnnualDay.jpg",
+      src: "/public/AnnualDay.jpg",
       alt: "Annual Day Celebration",
       caption: "Annual Day Celebration at College",
     },
@@ -111,10 +112,16 @@ export default function Gallery() {
                 >
                   <Card className="overflow-hidden hover:shadow-lg transition-shadow">
                     <div className="h-48 overflow-hidden">
-                      <img
-                        src={image.src || "/placeholder.svg"}
+                      <Image
+                        src={image.src}
                         alt={image.alt}
+                        width={400}
+                        height={300}
                         className="w-full h-full object-cover transition-transform hover:scale-105"
+                        onError={(e) => {
+                          console.error(`Error loading image: ${image.src}`);
+                          e.currentTarget.src = "/placeholder.svg";
+                        }}
                       />
                     </div>
                     <CardContent className="p-3">
