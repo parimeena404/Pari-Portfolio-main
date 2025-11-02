@@ -18,12 +18,12 @@ export default function Gallery() {
       caption: "Winning the I Love Hackathon with Stock Saarthi project",
     },
     {
-      src: "/IIT-Indore-Hackathon.jpg",
+      src: "/IITIndoreHackathon.jpg",
       alt: "IIT Indore Hackathon",
       caption: "Participating in IIT Indore Hackathon 2025",
     },
     {
-      src: "/GDGmoments.jpg",
+      src: "/GDGmomets.jpg",
       alt: "GDG Moments",
       caption: "Google Developer Group (GDG) Event Highlights",
     },
