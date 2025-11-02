@@ -29,7 +29,7 @@ export default function Gallery() {
       caption: "Google Developer Group (GDG) Event Highlights",
     },
     {
-      src: "/public/AnnualDay.jpg",
+      src: "/AnnualDay.jpg",
       alt: "Annual Day Celebration",
       caption: "Annual Day Celebration at College",
     },
