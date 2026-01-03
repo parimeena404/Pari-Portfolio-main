@@ -24,6 +24,16 @@ export default function Gallery() {
       caption: "Participating in IIT Indore Hackathon 2025",
     },
     {
+      src: "/Devfest 1.jpeg",
+      alt: "DevFest Event 1",
+      caption: "DevFest - Google Developer Festival Event",
+    },
+    {
+      src: "/Devfest 2.jpeg",
+      alt: "DevFest Event 2",
+      caption: "DevFest - Community Engagement and Learning",
+    },
+    {
       src: "/GDGmomets.jpg",
       alt: "GDG Moments",
       caption: "Google Developer Group (GDG) Event Highlights",
