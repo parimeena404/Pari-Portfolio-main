@@ -22,16 +22,6 @@ export default function Experience() {
       ],
     },
     {
-      title: "DUAA DAVV",
-      role: "Team Member & Website Designer",
-      period: "2024 – Present",
-      description: [
-        "Team member managing alumni relations and networking events across all DAVV departments.",
-        "Designed and maintained the official DUAA website.",
-        "Oversaw content strategy, SEO optimization, and alumni engagement initiatives.",
-      ],
-    },
-    {
       title: "DAVV State-Level Youth Fest",
       role: "Core Organizing Team Member",
       period: "2024",
@@ -42,7 +32,7 @@ export default function Experience() {
     },
     {
       title: "GDGOC IET DAVV",
-      role: "Core Tech Team Member | Social Media & Content Lead",
+      role: "Creative Team Lead",
       period: "2024 – Present",
       description: [
         "Ranked 3rd in Code Series – Showcased coding and problem-solving proficiency.",
