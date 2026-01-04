@@ -29,7 +29,7 @@ export default function Skills() {
       skills: ["Data Structures", "Algorithms", "Database Management", "System Design", "Git & GitHub"],
     },
     {
-      title: "Programming & Web3",
+      title: "Programming",
       icon: <ServerIcon className="h-6 w-6 text-purple-600 dark:text-purple-400" />,
       skills: ["Python", "C/C++", "Ethereum", "Polygon", "Smart Contracts", "VS Code"],
     },
