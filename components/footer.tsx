@@ -38,14 +38,6 @@ export default function Footer() {
             >
               <MailIcon className="h-5 w-5" />
             </Link>
-            <Link
-              href="https://wa.me/919589191560"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-green-500 transition-colors"
-            >
-              <span className="font-bold">W</span>
-            </Link>
           </div>
 
           <div className="text-gray-400 text-sm">&copy; {currentYear} Pari Meena. All rights reserved.</div>

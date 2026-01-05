@@ -68,9 +68,6 @@ export default function About() {
                 <strong className="text-gray-900 dark:text-white">Email:</strong> parimeena404@gmail.com
               </p>
               <p>
-                <strong className="text-gray-900 dark:text-white">Phone:</strong> +91-9589191560
-              </p>
-              <p>
                 <strong className="text-gray-900 dark:text-white">Field:</strong> Computer Science Engineering
               </p>
               <p className="mt-4">
