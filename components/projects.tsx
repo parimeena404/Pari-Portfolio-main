@@ -16,7 +16,7 @@ export default function Projects() {
     {
       title: "Krishi Bhandu",
       description: "A Flutter-based mobile application for farmers developed for Smart India Hackathon 2025. Features comprehensive farmer assistance tools with seamless API integration and user-friendly interface.",
-      image: "/placeholder.jpg",
+      image: "/Krishibandhu.jpeg",
       tags: ["Flutter", "API Integration", "Mobile App", "Dart", "Hackathon"],
       github: "https://github.com/rishabharaj/pmfby-app-master",
       category: "app",
