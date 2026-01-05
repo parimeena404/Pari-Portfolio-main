@@ -54,7 +54,7 @@ export default function Gallery() {
       caption: "DevFest - Community Engagement and Learning",
     },
     {
-      src: "/Community Workshop.jpg",
+      src: "/Attended Workshop.png",
       alt: "Community Workshop",
       caption: "Attended Community Workshop",
     },
