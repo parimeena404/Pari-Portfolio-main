@@ -11,6 +11,7 @@ export default function Achievements() {
       description: "CDAC Thiruvananthapuram - Credential ID CDACH/QML/3860",
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "Jun 2025",
+      certificate: "/Certificate Quantum Computing.jpeg",
     },
     {
       title: "Building LLM Applications with Prompt Engineering",
@@ -18,24 +19,21 @@ export default function Achievements() {
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "May 2025",
       credential: "v4rq1bLWQO-q2Ymc5WeYfw",
+      certificate: "/Certificate Buliding LLM.jpeg",
     },
     {
       title: "Cyber Physical Systems Workshop",
       description: "iHub - AWADHH @ IIT Ropar - Credential ID CPS070",
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
       period: "Apr 2025",
+      certificate: "/Certificate CPS Workshop.jpeg",
     },
     {
       title: "CyberSecurity Workshop",
       description: "CyberGlow Programming and Computer training institute Indore",
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Apr 2025",
-    },
-    {
-      title: "Python Programming",
-      description: "Skill India Digital Hub - Basic Python Programming Certification",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Apr 2025",
+      certificate: "/Certificate Cyber Workshop.jpeg",
     },
     {
       title: "TCS iON Career Edge - Young Professional",
@@ -43,18 +41,21 @@ export default function Achievements() {
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
       period: "Mar 2025",
       credential: "240640-27881079-1016",
+      certificate: "/Certification TCS Young .png",
     },
     {
       title: "Digital Business Skills Course",
       description: "HP LIFE - Digital Business Skills Certification",
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
+      certificate: "/Certificate Hp Digital Business Skills.png",
     },
     {
       title: "Freedom with AI Masterclass",
       description: "Freedom With AI - Advanced AI Training and Certification",
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
+      certificate: "/Certificate Ai Materclass.png",
     },
     {
       title: "Mastercard - Advisors & Consulting Services",
@@ -62,24 +63,35 @@ export default function Achievements() {
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
       credential: "24tLTjRneb8wYf4d7",
+      certificate: "/Certificate Mastercard forage.jpeg",
     },
     {
-      title: "Petals 6th Edition - Published Writer",
-      description: "Caroling Pen Publishing - Published writing contribution",
+      title: "McKinsey Forward Program",
+      description: "McKinsey & Company - Professional Development Program",
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Feb 2025",
+      period: "2025",
+      certificate: "/Certificate McKinsey forward program.jpeg",
     },
     {
-      title: "What Is Generative AI?",
-      description: "LinkedIn Learning - Skills: Generative AI Tools, Artificial Intelligence",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Feb 2025",
+      title: "I Love Hackathon Winner",
+      description: "Won I Love Indore Hackathon - Stock Saarthi Project",
+      icon: <TrophyIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/Certificate ILoveHackathon.jpeg",
     },
     {
-      title: "Digital Skills: Artificial Intelligence",
-      description: "Accenture in India - AI fundamentals and applications",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Jan 2025",
+      title: "Nobel Learning PBC Internship",
+      description: "Successfully completed internship at Nobel Learning PBC",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/certificate Nobel intern.jpeg",
+    },
+    {
+      title: "Edunet Foundation Internship",
+      description: "Successfully completed internship at Edunet Foundation",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/certificate edunet intern.jpeg",
     },
   ]
 
@@ -133,6 +145,16 @@ export default function Achievements() {
                   <p className="text-gray-600 dark:text-gray-400 text-sm">{achievement.description}</p>
                   {achievement.period && (
                     <p className="text-purple-600 dark:text-purple-400 text-sm mt-1">{achievement.period}</p>
+                  )}
+                  {achievement.certificate && (
+                    <a
+                      href={achievement.certificate}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 text-sm mt-2 inline-block"
+                    >
+                      View Certificate →
+                    </a>
                   )}
                   {achievement.link && (
                     <a

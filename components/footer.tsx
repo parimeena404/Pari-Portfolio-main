@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link href="#home" className="text-xl font-bold">
-              Pari<span className="text-purple-500">Meena</span>
+              Pari<span className="text-purple-500"> Meena</span>
             </Link>
             <p className="text-gray-400 mt-2">Computer Science Engineer & Web Developer</p>
           </div>
