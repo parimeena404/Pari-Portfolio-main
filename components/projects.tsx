@@ -14,6 +14,15 @@ export default function Projects() {
   const projects = [
     // Projects with live demos first
     {
+      title: "Krishi Bhandu",
+      description: "A Flutter-based mobile application for farmers developed for Smart India Hackathon 2025. Features comprehensive farmer assistance tools with seamless API integration and user-friendly interface.",
+      image: "/placeholder.jpg",
+      tags: ["Flutter", "API Integration", "Mobile App", "Dart", "Hackathon"],
+      github: "https://github.com/rishabharaj/pmfby-app-master",
+      category: "app",
+      achievement: "Winner, Smart India Hackathon 2025",
+    },
+    {
       title: "CalciSOS",
       description: "A discreet safety tool disguised as a calculator. Features hidden SOS trigger (911=) that sends location-based emergency alerts via email to preset contacts. Built with focus on user privacy and ease of access.",
       image: "/calcisos.jpg",

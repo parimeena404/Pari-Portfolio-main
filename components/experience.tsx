@@ -7,48 +7,46 @@ import { BriefcaseIcon, CalendarIcon, UsersIcon } from "lucide-react"
 export default function Experience() {
   const experiences = [
     {
-      title: "Team Spark Ignited (IET DAVV)",
-      role: "PR, Electronics, and Website Development Team Lead",
-      period: "2024 – Present",
+      title: "Smart India Hackathon 2025 (SIH)",
+      role: "Frontend Developer & Team Coordinator",
+      period: "December 2025",
       description: [
-        "Managing PR, Electronics, and Website Development Team.",
-        "Increased outreach, handled collaborations and event promotions by 30%.",
-        "Maintained the official Spark Ignited website.",
-        "Represented Spark Ignited at SIEP eBike Competition, played a key role in electronics and wiring harness team, ensuring system efficiency and safety.",
+        "Developed 'Krishi Bhandu' - a Flutter-based mobile application for farmers.",
+        "Led major work in API integration and frontend development.",
+        "Managed team coordination, meetings, and project management throughout the hackathon.",
+        "Handled frontend-API mapping and ensured seamless integration of all components.",
+        "Coordinated timelines and deliverables to meet hackathon deadlines.",
       ],
       achievements: [
-
-        "2nd Prize: ETWDC 2025 (Special Category) – Ranked 7th overall.",
-      ],
-    },
-    {
-      title: "DAVV State-Level Youth Fest",
-      role: "Core Organizing Team Member",
-      period: "2024",
-      description: [
-        "Part of the Core Organizing Team for the state-level youth fest hosted by DAVV.",
-        "Contributed to planning, logistics, and event execution, coordinating with multiple colleges across the state.",
+        "Grand Finale Winner - Smart India Hackathon 2025",
       ],
     },
     {
       title: "GDGOC IET DAVV",
       role: "Creative Team Lead",
-      period: "2024 – Present",
+      period: "July 2024 – Present",
       description: [
-        "Ranked 3rd in Code Series – Showcased coding and problem-solving proficiency.",
-        "Built multiple Flutter and API-based projects including a Geolocation-based Attendance Tracking System.",
+        "Core Team Member (July 2024 - August 2024), promoted to Creative Team Lead (September 2024).",
         "Led content strategy and social media initiatives to enhance community engagement.",
+        "I Love Hackathon (Dec 2024): Led frontend development for Stock Saarthi, a Web3-based platform.",
+        "DAVV Youth Fest (Feb 2025): Contributed to event organization and technical coordination.",
+        "IIT Indore Hackathon (Aug 2025): Contributed to project development and team collaboration.",
+        "Navonmesh Hackathon Raipur (Nov 2025): Handled frontend and API integration.",
+        "Built multiple Flutter and API-based projects including a Geolocation-based Attendance Tracking System.",
+      ],
+      achievements: [
+        "Ranked 3rd in Code Series",
+        "Winner - I Love Hackathon (Dec 2024)",
       ],
     },
     {
-      title: "I LOVE HACKATHON",
-      role: "Team Leader",
-      period: "2024",
+      title: "DAVV State-Level Youth Fest",
+      role: "Core Organizing Team Member",
+      period: "February 2025",
       description: [
-        "Led a multidisciplinary team to victory in a Web3-based Hackathon sponsored by Venture Block.",
-        "Designed Stock Saarthi, a platform for tokenizing stocks and real estate assets, enabling fractional ownership and enhanced liquidity through blockchain-powered smart contracts.",
+        "Part of the Core Organizing Team for the state-level youth fest hosted by DAVV.",
+        "Contributed to planning, logistics, and event execution, coordinating with multiple colleges across the state.",
       ],
-      achievements: ["Winner of the hackathon"],
     },
   ]
 
