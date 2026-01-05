@@ -80,8 +80,8 @@ export default function Achievements() {
       certificate: "/Certificate ILoveHackathon.jpeg",
     },
     {
-      title: "Nobel Thoughts Internship",
-      description: "Successfully completed internship at Nobel Thoughts",
+      title: "Nobel Learning PBC Internship",
+      description: "Successfully completed internship at Nobel Learning PBC",
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "2025",
       certificate: "/certificate Nobel intern.jpeg",
