@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { PhoneIcon, MailIcon, MapPinIcon, GithubIcon, LinkedinIcon } from "lucide-react"
+import { MailIcon, MapPinIcon, GithubIcon, LinkedinIcon } from "lucide-react"
 import Link from "next/link"
 
 export default function Contact() {
@@ -74,12 +74,6 @@ export default function Contact() {
   }
 
   const contactInfo = [
-    {
-      icon: <PhoneIcon className="h-5 w-5 text-purple-600" />,
-      title: "Phone",
-      value: "+91-9589191560",
-      link: "tel:+919589191560",
-    },
     {
       icon: <MailIcon className="h-5 w-5 text-purple-600" />,
       title: "Email",
@@ -172,16 +166,6 @@ export default function Contact() {
                         rel="noopener noreferrer"
                       >
                         <LinkedinIcon className="h-5 w-5" />
-                      </Link>
-                    </Button>
-                    <Button asChild variant="outline" className="bg-green-500 hover:bg-green-600 text-white border-green-500 hover:border-green-600">
-                      <Link
-                        href="https://wa.me/916261072872"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center px-3 py-2"
-                      >
-                        <span className="font-semibold">WhatsApp</span>
                       </Link>
                     </Button>
                   </div>
