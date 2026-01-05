@@ -59,17 +59,6 @@ export default function Hero() {
                   <GithubIcon className="h-6 w-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400" />
                 </Link>
               </Button>
-              <Button asChild variant="ghost" size="icon" className="hover:bg-purple-100 dark:hover:bg-purple-900 transform hover:scale-110 transition-all duration-300 rounded-full" aria-label="Resume">
-                <Link href="https://drive.google.com/file/d/1d1m9G3ANaOS1YZNtq9lbs91hCy20Ad2g/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                    <path d="M14 2v6h6"></path>
-                    <path d="M16 13H8"></path>
-                    <path d="M16 17H8"></path>
-                    <path d="M10 9H8"></path>
-                  </svg>
-                </Link>
-              </Button>
               <Button asChild variant="ghost" size="icon" className="hover:bg-purple-100 dark:hover:bg-purple-900 transform hover:scale-110 transition-all duration-300 rounded-full" aria-label="LinkedIn">
                 <Link
                   href="https://www.linkedin.com/in/pari-meena-5b7814297"
