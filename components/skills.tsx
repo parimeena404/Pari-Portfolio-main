@@ -31,7 +31,7 @@ export default function Skills() {
     {
       title: "Programming",
       icon: <ServerIcon className="h-6 w-6 text-purple-600 dark:text-purple-400" />,
-      skills: ["Python", "C/C++", "Ethereum", "Polygon", "Smart Contracts", "VS Code"],
+      skills: ["Python", "C/C++", "Dart", "JavaScript", "VS Code"],
     },
     {
       title: "AI & ML",

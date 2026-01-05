@@ -42,8 +42,8 @@ export default function Hero() {
               <span className="animate-pulse text-purple-600 dark:text-purple-400 ml-1">|</span>
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-400 mb-10 max-w-lg leading-relaxed">
-              A passionate <span className="text-purple-600 dark:text-purple-400 font-semibold">tech enthusiast</span> and <span className="text-blue-600 dark:text-blue-400 font-semibold">Open Source Contributor</span> from Indore, India, with expertise in web development, electronics, and a
-              track record of leading technical teams and software development projects.
+              A passionate <span className="text-purple-600 dark:text-purple-400 font-semibold">tech enthusiast</span> from Indore, India, with expertise in web development, mobile app development, and a
+              track record of <span className="text-blue-600 dark:text-blue-400 font-semibold">leading technical teams</span> with strong <span className="text-purple-600 dark:text-purple-400 font-semibold">communication</span> and <span className="text-blue-600 dark:text-blue-400 font-semibold">problem-solving skills</span>.
             </p>
             <div className="flex flex-wrap gap-4 mb-8">
               <Button asChild className="bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white px-8 py-3 text-lg font-semibold shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
