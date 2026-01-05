@@ -35,12 +35,6 @@ export default function Achievements() {
       certificate: "/Certificate Cyber Workshop.jpeg",
     },
     {
-      title: "Python Programming",
-      description: "Skill India Digital Hub - Basic Python Programming Certification",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Apr 2025",
-    },
-    {
       title: "TCS iON Career Edge - Young Professional",
       description: "TCS iON - Skills: Soft Skills & Business Etiquette",
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
@@ -94,24 +88,6 @@ export default function Achievements() {
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "2025",
       certificate: "/certificate edunet intern.jpeg",
-    },
-    {
-      title: "Petals 6th Edition - Published Writer",
-      description: "Caroling Pen Publishing - Published writing contribution",
-      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Feb 2025",
-    },
-    {
-      title: "What Is Generative AI?",
-      description: "LinkedIn Learning - Skills: Generative AI Tools, Artificial Intelligence",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Feb 2025",
-    },
-    {
-      title: "Digital Skills: Artificial Intelligence",
-      description: "Accenture in India - AI fundamentals and applications",
-      icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
-      period: "Jan 2025",
     },
   ]
 
