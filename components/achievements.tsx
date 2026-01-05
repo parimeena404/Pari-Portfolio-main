@@ -18,18 +18,21 @@ export default function Achievements() {
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "May 2025",
       credential: "v4rq1bLWQO-q2Ymc5WeYfw",
+      certificate: "/Certificate Buliding LLM.jpeg",
     },
     {
       title: "Cyber Physical Systems Workshop",
       description: "iHub - AWADHH @ IIT Ropar - Credential ID CPS070",
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
       period: "Apr 2025",
+      certificate: "/Certificate CPS Workshop.jpeg",
     },
     {
       title: "CyberSecurity Workshop",
       description: "CyberGlow Programming and Computer training institute Indore",
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Apr 2025",
+      certificate: "/Certificate Cyber Workshop.jpeg",
     },
     {
       title: "Python Programming",
@@ -62,6 +65,35 @@ export default function Achievements() {
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
       credential: "24tLTjRneb8wYf4d7",
+      certificate: "/Certificate Mastercard forage.jpeg",
+    },
+    {
+      title: "McKinsey Forward Program",
+      description: "McKinsey & Company - Professional Development Program",
+      icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/Certificate McKinsey forward program.jpeg",
+    },
+    {
+      title: "I Love Hackathon Winner",
+      description: "Won I Love Indore Hackathon - Stock Saarthi Project",
+      icon: <TrophyIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/Certificate ILoveHackathon.jpeg",
+    },
+    {
+      title: "Nobel Thoughts Internship",
+      description: "Successfully completed internship at Nobel Thoughts",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/certificate Nobel intern.jpeg",
+    },
+    {
+      title: "Edunet Foundation Internship",
+      description: "Successfully completed internship at Edunet Foundation",
+      icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
+      period: "2025",
+      certificate: "/certificate edunet intern.jpeg",
     },
     {
       title: "Petals 6th Edition - Published Writer",
@@ -133,6 +165,16 @@ export default function Achievements() {
                   <p className="text-gray-600 dark:text-gray-400 text-sm">{achievement.description}</p>
                   {achievement.period && (
                     <p className="text-purple-600 dark:text-purple-400 text-sm mt-1">{achievement.period}</p>
+                  )}
+                  {achievement.certificate && (
+                    <a
+                      href={achievement.certificate}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-purple-600 hover:text-purple-700 dark:text-purple-400 dark:hover:text-purple-300 text-sm mt-2 inline-block"
+                    >
+                      View Certificate →
+                    </a>
                   )}
                   {achievement.link && (
                     <a
