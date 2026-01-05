@@ -19,9 +19,24 @@ export default function Gallery() {
       caption: "Winning the I Love Hackathon with Stock Saarthi project",
     },
     {
-      src: "/IITIndoreHackathon.jpg",
-      alt: "IIT Indore Hackathon",
-      caption: "Participating in IIT Indore Hackathon 2025",
+      src: "/Navonmesh Winning.jpeg",
+      alt: "Navonmesh Hackathon",
+      caption: "Navonmesh Hackathon Winning",
+    },
+    {
+      src: "/IIT Indore Visit.jpg",
+      alt: "IIT Indore Visit",
+      caption: "Visit to IIT Indore Campus",
+    },
+    {
+      src: "/GDG Team.jpeg",
+      alt: "Google Developer Group",
+      caption: "Google Developer Group Event",
+    },
+    {
+      src: "/School Award Ceremony.jpeg",
+      alt: "Awards Ceremony",
+      caption: "Awards and Recognition Ceremony",
     },
     {
       src: "/Devfest 1.jpeg",
@@ -32,21 +47,6 @@ export default function Gallery() {
       src: "/Devfest 2.jpeg",
       alt: "DevFest Event 2",
       caption: "DevFest - Community Engagement and Learning",
-    },
-    {
-      src: "/GDGmomets.jpg",
-      alt: "GDG Moments",
-      caption: "Google Developer Group (GDG) Event Highlights",
-    },
-    {
-      src: "/AnnualDay.jpg",
-      alt: "Annual Day Celebration",
-      caption: "Annual Day Celebration at College",
-    },
-    {
-      src: "/BestStudentAward.jpg",
-      alt: "Best Student Award",
-      caption: "Receiving Best Student Award for Academic Excellence",
     },
     {
       src: "/DUAA_PHOTO.jpg",
