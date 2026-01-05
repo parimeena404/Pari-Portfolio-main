@@ -24,9 +24,9 @@ export default function Gallery() {
       caption: "Navonmesh Hackathon Winning",
     },
     {
-      src: "/IIT Indore Visit.jpg",
-      alt: "IIT Indore Visit",
-      caption: "Visit to IIT Indore Campus",
+      src: "/IIT Indore Team.jpg",
+      alt: "IIT Indore Team",
+      caption: "Team visit at IIT Indore",
     },
     {
       src: "/GDG Team.jpeg",
