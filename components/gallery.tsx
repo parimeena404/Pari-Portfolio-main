@@ -14,6 +14,11 @@ export default function Gallery() {
 
   const images = [
     {
+      src: "/SIH Winning.jpeg",
+      alt: "SIH Winning",
+      caption: "Smart India Hackathon Winner - Grand Finale",
+    },
+    {
       src: "/iloveindoreWinning_photo.png",
       alt: "Hackathon Team",
       caption: "Winning the I Love Hackathon with Stock Saarthi project",
