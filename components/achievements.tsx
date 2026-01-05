@@ -11,6 +11,7 @@ export default function Achievements() {
       description: "CDAC Thiruvananthapuram - Credential ID CDACH/QML/3860",
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "Jun 2025",
+      certificate: "/Certificate Quantum Computing.jpeg",
     },
     {
       title: "Building LLM Applications with Prompt Engineering",
@@ -40,6 +41,7 @@ export default function Achievements() {
       icon: <GraduationCapIcon className="h-10 w-10 text-yellow-500" />,
       period: "Mar 2025",
       credential: "240640-27881079-1016",
+      certificate: "/Certification TCS Young .png",
     },
     {
       title: "Digital Business Skills Course",
