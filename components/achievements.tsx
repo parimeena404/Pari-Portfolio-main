@@ -46,12 +46,14 @@ export default function Achievements() {
       description: "HP LIFE - Digital Business Skills Certification",
       icon: <AwardIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
+      certificate: "/Certificate Hp Digital Business Skills.png",
     },
     {
       title: "Freedom with AI Masterclass",
       description: "Freedom With AI - Advanced AI Training and Certification",
       icon: <CodeIcon className="h-10 w-10 text-yellow-500" />,
       period: "Feb 2025",
+      certificate: "/Certificate Ai Materclass.png",
     },
     {
       title: "Mastercard - Advisors & Consulting Services",
