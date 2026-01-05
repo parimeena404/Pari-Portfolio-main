@@ -1,25 +1,35 @@
-# Portfolio Website
+# Pari Meena - Portfolio Website
 
-A modern, responsive portfolio website built with Next.js 16, TypeScript, and Tailwind CSS. Features a sleek design with smooth animations, dark mode support, and MongoDB integration for dynamic content management.
+A modern, responsive portfolio website showcasing my journey as a Software Developer and Computer Science Engineer. Built with Next.js 16, TypeScript, and Tailwind CSS, featuring a sleek design with smooth animations, dark mode support, and MongoDB integration.
 
 ## ✨ Features
 
 - **Modern Tech Stack**: Built with Next.js 16, React 19, and TypeScript
-- **Responsive Design**: Fully responsive layout that works on all devices
-- **Dark Mode**: Toggle between light and dark themes with smooth transitions
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Dark Mode**: Seamless toggle between light and dark themes
 - **Interactive UI**: Smooth animations powered by Framer Motion
 - **Component Library**: Built with Radix UI and shadcn/ui components
-- **MongoDB Integration**: Dynamic content management with MongoDB
-- **Contact Form**: Functional contact form with form validation
-- **Sections**:
-  - Hero section with introduction
-  - About section
-  - Skills showcase
-  - Work experience timeline
-  - Projects gallery
-  - Achievements
-  - Contact form
-  - Photo gallery
+- **MongoDB Integration**: Dynamic content management and contact form storage
+- **SEO Optimized**: Meta tags and structured data for better visibility
+
+## 📋 Sections
+
+- **Hero Section**: Introduction with typing animation and social links
+- **About**: Professional background and journey
+- **Skills**: Technical and soft skills categorized by domain
+- **Experience**: Timeline of hackathons, leadership roles, and projects
+- **Projects**: Portfolio of web apps, mobile apps, and hackathon projects
+- **Achievements**: Certifications and awards with downloadable certificates
+- **Gallery**: Event photos from hackathons and competitions
+- **Contact**: Functional contact form with email integration
+
+## 🏆 Highlights
+
+- **Smart India Hackathon 2025 Winner** - Krishi Bhandu (Flutter app for farmers)
+- **I Love Hackathon Winner** - Stock Saarthi (Web3 platform)
+- **Navonmesh Hackathon Winner** - Frontend & API integration
+- **GDGOC IET DAVV Creative Team Lead** - Leading developer community initiatives
+- Multiple certifications from NVIDIA, CDAC, McKinsey, Mastercard, and more
 
 ## 🚀 Getting Started
 
@@ -27,7 +37,7 @@ A modern, responsive portfolio website built with Next.js 16, TypeScript, and Ta
 
 - Node.js 18+ 
 - pnpm (recommended) or npm
-- MongoDB database (for contact form and dynamic content)
+- MongoDB database (for contact form functionality)
 
 ### Installation
 
@@ -131,11 +141,11 @@ pnpm lint
 
 ## 🌐 Deployment
 
-This project is optimized for deployment on [Vercel](https://vercel.com/):
+This project is deployed on [Vercel](https://vercel.com/) and optimized for production:
 
 1. Push your code to GitHub
 2. Import your repository to Vercel
-3. Add environment variables in Vercel dashboard
+3. Add environment variables in Vercel dashboard (`MONGODB_URI`)
 4. Deploy!
 
 The `vercel.json` configuration file is already included for optimal deployment settings.
@@ -144,28 +154,51 @@ The `vercel.json` configuration file is already included for optimal deployment 
 
 ### Updating Content
 
-1. **Personal Information**: Edit the component files in the `components/` directory
-2. **Styling**: Modify `tailwind.config.ts` for theme customization
-3. **Typography & Colors**: Update global styles in `app/globals.css`
-4. **Database Schema**: Adjust the MongoDB schema in `lib/db.ts`
+1. **Personal Information**: Edit component files in the `components/` directory
+2. **Projects**: Update `components/projects.tsx` with your projects
+3. **Experience**: Modify `components/experience.tsx` for work history
+4. **Skills**: Customize `components/skills.tsx` to reflect your expertise
+5. **Images**: Add your images to the `public/` directory
 
-### Adding New Sections
+### Styling
 
-1. Create a new component in `components/`
-2. Import and add it to `app/page.tsx`
-3. Style it using Tailwind CSS classes
+1. **Theme Colors**: Modify `tailwind.config.ts` for custom color schemes
+2. **Typography**: Update global styles in `app/globals.css`
+3. **Dark Mode**: Customize dark mode colors in component files
 
-## 🤝 Contributing
+## 🔧 Tech Stack Summary
 
-Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
+- **Frontend**: Next.js 16, React 19, TypeScript
+- **Styling**: Tailwind CSS, shadcn/ui, Framer Motion
+- **Database**: MongoDB
+- **Deployment**: Vercel
+- **Tools**: pnpm, ESLint, PostCSS
+
+## 📧 Contact
+
+- **Email**: parimeena404@gmail.com
+- **GitHub**: [@parimeena404](https://github.com/parimeena404)
+- **LinkedIn**: [Pari Meena](https://www.linkedin.com/in/pari-meena-5b7814297)
+
+## 🎯 Project Status
+
+✅ **Complete** - Portfolio is fully functional with all sections implemented
+
+### Recent Updates (January 2026)
+- Added Smart India Hackathon 2025 experience and Krishi Bhandu project
+- Updated GDGOC timeline with detailed contributions
+- Added certificates for all achievements
+- Updated gallery with recent event photos
+- Optimized skills section and hero introduction
+- Removed blockchain-specific technologies, focused on core development skills
 
 ## 📄 License
 
-This project is available for personal and commercial use.
+This project is open source and available under the MIT License.
 
-## 👤 Author
+---
 
-**Parimeena**
+**Built with ❤️ by Pari Meena**
 - GitHub: [@parimeena404](https://github.com/parimeena404)
 
 ## ⭐ Show Your Support
