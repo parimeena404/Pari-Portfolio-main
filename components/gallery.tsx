@@ -49,16 +49,6 @@ export default function Gallery() {
       caption: "DevFest - Google Developer Festival Event",
     },
     {
-      src: "/Devfest 2.jpeg",
-      alt: "DevFest Event 2",
-      caption: "DevFest - Community Engagement and Learning",
-    },
-    {
-      src: "/Attended Workshop.png",
-      alt: "Community Workshop",
-      caption: "Attended Community Workshop",
-    },
-    {
       src: "/DUAA_PHOTO.jpg",
       alt: "DAVV Youth Fest",
       caption: "Organizing the DAVV State-Level Youth Fest",
